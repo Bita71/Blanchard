@@ -1,0 +1,25 @@
+.blog-content {
+  border-radius: 10px;
+}
+
+.pagination-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  color: antiquewhite;
+  background-color: gray;
+  text-decoration: none;
+  transition: opacity .1s ease;
+  cursor: pointer;
+}
+
+.pagination-item:hover {
+  opacity: .6;
+}
+.pagination-item:active {
+  opacity: .8;
+}
